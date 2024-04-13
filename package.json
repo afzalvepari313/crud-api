@@ -1,0 +1,16 @@
+{
+  "name": "mern-crud-ts",
+  "version": "1.0.0",
+  "description": "mern crud app using typescript and implement of objected oriented programming ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern-crud",
+    "typescript",
+    "api"
+  ],
+  "author": "afzal veparii",
+  "license": "ISC"
+}
