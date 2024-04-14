@@ -2,9 +2,10 @@
   "name": "mern-crud-ts",
   "version": "1.0.0",
   "description": "mern crud app using typescript and implement of objected oriented programming ",
-  "main": "index.js",
+  "main": "src/app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/app.ts"
   },
   "keywords": [
     "mern-crud",
@@ -12,5 +13,13 @@
     "api"
   ],
   "author": "afzal veparii",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "express": "^4.19.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
 }
